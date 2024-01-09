@@ -2,17 +2,15 @@
 * **APサーバー**について  
   * APサーバーの名前　**PUMA**　version **5.6.5**  
 ![puma.png](img/puma.png)
-  * APサーバーを終了させる方法　**Ctrl+C**　　
+  * APサーバーを終了させた場合はアクセスできずエラー表示　
 ![ctrl+c.png](img/ctrl+c.png)
-  * APサーバーの再起動命令 **rails s**
+  * APサーバーの再起動を行い再アクセス可能
 ![app.png](img/app.png)
 
 * **DBサーバー**について
   * DBサーバーの名前 **MySQL** version **8.0.35**
-  * DBサーバー停止命令 **sudo service mysqld stop**
-  * DBサーバー起動命令 **sudo service mysqld start**
-  * DBサーバー状態確認 **sudo service mysqld status** 
-![Mysql.png](img/Mysql.png)
+  * DBサーバー停止命令後のエラー表示  
+！[Mysql.png](img/Mysql.png)
 * Rails構成管理ツール**bundler**
 
 # 感想
